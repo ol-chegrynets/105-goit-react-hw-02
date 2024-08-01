@@ -1,0 +1,40 @@
+.feedbackContainer {
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.feedbackContainer p {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.iconGood {
+    color: #0b8548;
+    background-color: #ffff79;
+    border-radius: 50%;
+
+}
+
+.iconNeutral {
+    color: #eea20a;
+    background-color: #ffff79;
+    border-radius: 50%;
+}
+
+.iconBad {
+    color: hsla(0, 100%, 40%, 0.786);
+    background-color: #ffff79;
+    border-radius: 50%;
+}
+
+.iconTotal {
+    color: rgb(26, 33, 251);
+    border-radius: 50%;
+    gap: 0px;
+}

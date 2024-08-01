@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border: 2px solid #b1fcfc;
+  border-radius: 12px;
+  background: linear-gradient(0.50turn, #3f87a6, #ebf8e1, #f69d3c);
+  padding: 16px;
+  margin: 0 auto;
+}
